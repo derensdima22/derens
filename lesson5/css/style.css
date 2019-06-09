@@ -1,0 +1,216 @@
+body *{
+   
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    padding: 30px;
+    width: 850px;
+    background-color: rgb(255, 246, 244);
+}
+
+header img{
+    display: inline-block;
+    margin-right: 10px;
+    width: 20%;
+
+}
+
+header .head{
+    padding: 20px 10px;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.head pre{
+    display: inline-block;
+    font-weight: 500;
+}
+
+.head pre sup{
+    vertical-align: sub;
+    color: #2924a9;
+    font-weight: 700;
+}
+
+.work3 a {
+    text-decoration: none;
+    color: #43cc21;
+}
+
+.block1{
+    padding-top:20px;
+    text-align: justify;
+}
+
+.block1 h4{
+    display: inline;
+}
+
+.block1 span{
+    color: #2924a9;
+    font-family: serif;
+    font-weight: 700;
+}
+
+.block1 sup{
+    vertical-align: sub;
+    color: #2924a9;
+    font-weight: 700;
+}
+
+.block2 {
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.block2 p{
+    text-align: justify;
+    padding-top: 15px;
+
+}
+
+.block2 img{
+    padding: 5px 0 0 25px;
+
+}
+
+.block2 sup{
+    vertical-align: sub;
+    color: #2924a9;
+    font-weight: 700;
+}
+
+.block2 span{
+    color: #2924a9;
+    font-family: serif;
+    font-weight: 700;
+}
+
+
+body .A-level {
+    margin-top: 25px;
+    width: 500px;
+    height: 200px;
+    background: url("../images/2.jpg") no-repeat center top /cover;
+
+}
+
+.A-level:hover{
+    background-size: 400px;
+}
+
+.sp{
+    background-color: #fff;
+    color: #000000;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    mix-blend-mode: lighten;
+}
+
+
+
+.www3{
+
+    height: 500px;
+    width: 850px;
+    padding: 20px;
+    position: relative;
+    display: block;
+    margin-left: 50px;
+
+
+}
+
+.n{
+
+    position: absolute;
+    background-color: #ffaf6d;
+    border: #000000 2px solid;
+    box-shadow: #0d0d0d 7px 7px 5px;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    cursor: pointer;
+}
+
+.n p{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.n:hover p{
+    display: none;
+
+}
+
+.n1{
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.n1:hover{
+    text-align: justify;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    z-index: 6;
+}
+.n:hover:after{
+    content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.';
+    color: #000000;
+
+}
+
+
+
+.n2{
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.n2:hover{
+    width: 200px;
+    height: 200px;
+    z-index: 6;
+}
+.n3{
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+.n3:hover{
+    width: 200px;
+    height: 200px;
+    z-index: 6;
+}
+
+.n4{
+    top: 150px;
+    left: 150px;
+    z-index: 4;
+}
+.n4:hover{
+    width: 200px;
+    height: 200px;
+    z-index: 6;
+}
+.n5{
+    top: 200px;
+    left: 200px;
+    z-index: 5;
+}
+.n5:hover{
+    width: 200px;
+    height: 200px;
+    z-index: 6;
+}
+
