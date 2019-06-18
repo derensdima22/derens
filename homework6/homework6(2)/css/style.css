@@ -41,9 +41,10 @@ body *{
 }
 
 .block{
+    margin-top: 25px;
     padding: 15px 10px;
     box-shadow: inset 2px 2px 2px rgba(0, 0 ,0, 0.5) ;
-    min-height: 700px;
+    min-height: 750px;
     border: 1px #8c8c8c solid;
     overflow: hidden;
 
