@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    background-color: #e7e7e7;
+    font-family:arial sans-serif;
+    font-size: 13px;
+    color: #000;
+    font-weight: 100;
+}
+body *{
+    box-sizing: border-box;
+}
+body * { box-sizing: border-box }
+.holder::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: normal;
+}
+img {
+    max-width: 100%;
+    width: auto;
+}
+.container{
+    max-width: 999px;
+    margin: 0 auto;
+
+}
+
+/*Header*/
+header{
+    background-color: #171616;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+header img{
+    max-width: 115px;
+    padding-top: 12px;
+}
+.logo p{
+    color: #686868;
+    font-size: 12px;
+    line-height: 3px;
+    padding-bottom: 9px;
+}
+.Search{
+    padding-top: 12px;
+}
+.Search input{
+    background-color: #323232;
+    border: 1px #4c4c4c solid;
+    min-height: 27px;
+    min-width: 352px;
+}
+.Search button{
+    padding: 4px 14px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px #4c4c4c solid;
+}
+
+
+/*Banner*/
+.banner{
+    background-color: #000000;
+}
+.banner .container{
+    background: url("../images/banner.jpg") no-repeat top center /cover;
+    min-height: 330px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.banner .container p{
+    white-space: pre;
+    padding: 17px 8px;
+    color: #dedede;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*Menu*/
+main .container{
+    background-color: #ffffff;
+}
+
+#menu-checkbox, .mobile-menu{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    background-color: #000000;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 24px;
+    font-weight: bold;
+    border-left: 1px solid #272727;
+}
+.wrapper{
+    padding: 24px 12px 0 12px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #838383;
+}
+
+.text-commodo{
+    font-family: cursive;
+    font-weight: 100;
+}
+.text-lorem{
+    padding-bottom: 41px;
+}
+
+h2{
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.new-york{
+    padding:9px 0 27px;
+}
+.new-york img{
+    margin-right: 16px;
+    border: 12px solid #e2e2e2 ;
+
+}
+
+.item{
+    display: flex;
+    padding: 18px 0 48px 0 ;
+
+}
+
+.item-2{
+    list-style-type: decimal;
+}
+ul{
+    margin: 0;
+}
+.item pre{
+    margin: 0 0 0 57px;
+    font-family: Arial, sans-serif;
+}
+
+.table-h2{
+    padding-bottom: 17px;
+}
+table{
+
+    border-collapse:collapse ;
+    text-align: left;
+}
+th, td{
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+}
+th{
+    background-color: #efefef;
+}
+.table-1{
+    width: 142px;
+}
+.table-2{
+    width: 271px;
+}
+.table-3{
+    width: 326px;
+}
+.table-4{
+    width: 226px;
+}
+
+.filling h2{
+    padding: 24px 0 21px 0;
+}
+
+.text{
+    font-size: 12px;
+    width: 224px;
+    padding: 8px;
+}
+.text-select{
+    padding-top: 15px;
+}
+
+.selection label{
+    display: block;
+    padding-top: 15px;
+}
+.selection select{
+    width: 224px;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.explanation{
+    padding-top: 14px;
+}
+#explanation{
+    margin: 0;
+}
+#explanation2{
+    margin: 0;
+}
+
+.Textarea{
+    display: block;
+    margin-top: 21px;
+}
+textarea{
+    resize: none;
+}
+.button{
+    padding: 15px 0 24px 0;
+}
+button{
+    background-color: #202020;
+    color: #ffffff;
+    padding: 10px 24px;
+    border: 1px solid #000000;
+}
+
+.footer{
+    color: #656565;
+    padding: 11px 0;
+}
+
+@media (max-width: 1020px){
+    .new-york {
+        display: block;
+        width: 454px;
+        margin: 0 auto;
+    }
+    .new-york img{
+        margin: 0;
+
+    }
+}
+
+@media (max-width: 800px){
+    .item{
+        display: inline-block;
+        border: 2px solid #000000;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+        padding: 5px;
+        background-color: #dadada;
+        max-width: 320px;
+
+    }
+    .item:hover{
+        background-color: #363636;
+        color: #c08329;
+    }
+    .item pre{
+        margin-left: 30px;
+    }
+
+    .item-2{
+     padding: 20px 40px;
+    }
+}
+
+@media (max-width: 488px){
+    .new-york img{
+        display: block;
+    }
+    header .container{
+        display: block;
+    }
+
+
+
+    .mobile-menu{
+        display: inline-flex;
+        cursor: pointer;
+    }
+    .menu{
+        display: none;
+    }
+    head .wsrt{
+        position: relative;
+    }
+    input#menu-checkbox:checked + .menu{
+        display: block;
+        position: absolute;
+        background-color: #dadada;
+        padding: 12px 24px;
+    }
+    input#menu-checkbox:checked + .menu a{
+        display: block;
+        margin: 6px 0;
+        background-color: #000000;
+    }
+}
