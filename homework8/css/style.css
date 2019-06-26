@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: #888888;
+    background-color: #ffffff;
+    padding-top: 120px;
+}
+body * {
+    box-sizing: border-box
+}
+.holder::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+img {
+    max-width: 100%;
+    width: auto;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: normal;
+}
+h2{
+    font-size: 20px;
+    color: #4c5b66;
+}
+h4{
+    font-size: 15px;
+    color: #5c5c5c;
+
+}
+a {
+    color: #323332;
+    text-decoration: none;
+}
+time{
+    color: #b0b0b0;
+    font-size: 11px;
+}
+
+.wrapper {
+    max-width: 978px;
+    margin: 0 auto;
+}
+
+.pictures {
+    border: 1px #f2f2f2 solid;
+    padding: 3px;
+    box-shadow: inset 1px -1px 1px 1px #d9d9d9;
+}
+
+header{
+    background-color: #4c5c69;
+    min-height: 120px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding-top: 16px;
+}
+#menu-checkbox, .mobile-menu{
+    display: none;
+}
+header a{
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 40px;
+}
+header a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2f3942;
+}
+
+
+.gears{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+.gears img{
+    max-width: 20px;
+    margin-right: 3px;
+}
+.phone-icons{
+    padding: 20px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #e8e8e8;
+}
+
+.common-block{
+    padding: 20px 0 50px;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+
+}
+.read{
+    color: #3c92d0;
+}
+.block{
+    max-width: 50%;
+}
+.link{
+    display: block;
+    color: #3e95d2;
+    padding-top: 15px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+
+}
+.blog img{
+    max-width: 17px;
+}
+
+.icon-pc{
+    display: flex;
+    padding-top: 15px;
+}
+
+.icon-pc > .pictures{
+    margin-right: 45px;
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block1 p{
+    line-height: 1.5;
+}
+.block-twitter{
+    padding-left: 90px;
+}
+.twitter-blog{
+    display: flex;
+    align-items: center;
+
+}
+.twitter-blog img{
+    max-width: 17px;
+}
+.authors{
+    padding-top: 15px;
+}
+.authors p{
+    line-height: 1.5;
+}
+.authors span{
+    color: #515151;
+}
+
+.authors a{
+    color: #3f97d3;
+}
+
+
+.level{
+    color: #8a8a8a;
+}
+
+.social img{
+    max-width: 28px;
+}
+
+.copyright{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 970px){
+    header .wrapper{
+        padding: 0 20px;
+    }
+    .mobile-menu{
+        display: inline-flex;
+        cursor: pointer;
+    }
+    .mobile-menu img{
+        min-width: 48px;
+        color: #ffffff;
+    }
+    nav{
+        display: none;
+    }
+    head .wrapper{
+        position: relative;
+    }
+    input#menu-checkbox:checked + nav{
+        display: inline-block;
+        position: absolute;
+        background-color: #000000;
+        padding: 12px 24px;
+        top: 70%;
+        right: 25px;
+        border: 1px #dadada solid;
+    }
+    input#menu-checkbox:checked + nav a{
+        display: block;
+        margin: 6px 0;
+    }
+    .gears{
+        padding: 40px 20px 0;
+    }
+    h2{
+        font-size: 26px;
+    }
+    .proj{
+        font-size: 26px;
+    }
+    .phone-icons{
+        display: block;
+        max-width: 500px;
+        margin: 0 auto;
+        border: none;
+    }
+    .phone-icons img{
+        margin: 5px;
+    }
+    .common-block{
+        display: block;
+        padding: 20px 20px 0;
+        border-top: 1px solid #e8e8e8 ;
+        border-bottom: none;
+    }
+    .block{
+        max-width: 100%;
+        border-bottom: 1px #e8e8e8 solid;
+    }
+    .link{
+        padding-bottom: 50px;
+    }
+    .fol-twit{
+        padding-bottom: 50px;
+    }
+    .block-twitter{
+        padding-left: 0;
+    }
+    .copyright{
+        padding: 20px 20px 0;
+    }
+    .level{
+        font-size: 15px;
+        }
+    .social img{
+        max-width: 36px;
+    }
+}
+
+@media (max-width: 505px){
+    .phone-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .phone-icons img{
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    .icon-pc{
+        flex-direction: column;
+    }
+    .icon-pc img{
+        min-width: 100%;
+    }
+    .copyright{
+        flex-direction: column-reverse;
+    }
+}
