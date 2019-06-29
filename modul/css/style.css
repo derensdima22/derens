@@ -135,6 +135,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 
 .logo{
     font-size: 24px;
+    text-transform: uppercase;
 }
 #menu > .wrapper{
     display: flex;
